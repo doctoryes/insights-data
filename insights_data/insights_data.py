@@ -7,7 +7,7 @@ class APIKeyAuth(requests.auth.AuthBase):
     def __init__(self, api_key):
         self.api_key = api_key
     def __call__(self, req):
-        # Simply return the API key.
+        # Add the API key to the headers.
         req.headers['Authorization'] = 'Token {}'.format(self.api_key)
         return req
 
@@ -70,7 +70,7 @@ class LMSInsightsClient(object):
                 "verified": 1872
               }
         """
-        return self._get_api_courses_results(course_id, 'mode')
+        return self._get_api_courses_results(course_id, 'mode')[0]
 
     def get_current_course_enrollment_by_birth_year(self, course_id):
         """
