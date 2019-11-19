@@ -210,7 +210,7 @@ latex_elements = {
 latex_documents = [
     ('index', 'insights_data.tex',
      u'LMS-Insights Data Interface Documentation',
-     u'John Eskew', 'manual'),
+     u'Julia Eskew', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at
@@ -241,7 +241,7 @@ latex_documents = [
 man_pages = [
     ('index', 'insights_data',
      u'LMS-Insights Data Interface Documentation',
-     [u'John Eskew'], 1)
+     [u'Julia Eskew'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -256,7 +256,7 @@ man_pages = [
 texinfo_documents = [
     ('index', 'insights_data',
      u'LMS-Insights Data Interface Documentation',
-     u'John Eskew',
+     u'Julia Eskew',
      'insights_data',
      'One line description of project.',
      'Miscellaneous'),
