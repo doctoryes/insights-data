@@ -22,7 +22,7 @@ setup(
     version='0.1.0',
     description="Python module to use in querying Insights data from the LMS.",
     long_description=readme + '\n\n' + history,
-    author="John Eskew",
+    author="Julia Eskew",
     author_email='jeskew@edx.org',
     url='https://github.com/doctoryes/insights_data',
     packages=find_packages(),
