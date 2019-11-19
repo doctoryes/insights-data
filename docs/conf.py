@@ -56,7 +56,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'LMS-Insights Data Interface'
-copyright = u"2017, John Eskew"
+copyright = u"2017, Julia Eskew"
 
 # The version info for the project you're documenting, acts as replacement
 # for |version| and |release|, also used in various other places throughout
