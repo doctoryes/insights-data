@@ -2,7 +2,7 @@
 import re
 import requests
 
-__author__ = """John Eskew"""
+__author__ = """Julia Eskew"""
 __email__ = 'jeskew@edx.org'
 __version__ = '0.1.0'
 
