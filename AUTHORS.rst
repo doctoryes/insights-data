@@ -5,7 +5,7 @@ Credits
 Development Lead
 ----------------
 
-* John Eskew <jeskew@edx.org>
+* Julia Eskew <jeskew@edx.org>
 
 Contributors
 ------------
